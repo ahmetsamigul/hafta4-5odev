@@ -1,12 +1,22 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
 }
-
-body {
-    
+body{
+    background-color: beige;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
 }
-
-.result-block{
-
+#sonuc{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-left: 4px;
+    border: solid;
+    width: 139px;
+    height: 19px;
+}
+button{
+    background-color: goldenrod;
+    border-radius: 5px;
 }
